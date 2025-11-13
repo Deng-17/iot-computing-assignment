@@ -14,7 +14,7 @@
 | Jakira Juma Fahad | 25/U/BIO/01374/PD |  |
 
 ## 🔗 Project Links
-**Website:** [Internet of Things](https://Deng-17.github.io/iot-computing-assignment/website/)
+**Website:** [Internet of Things](https://Deng-17.github.io/iot-computing-assignment/website/)  
 **Blog:**  
 **Wiki:**  
 **Video:**  
