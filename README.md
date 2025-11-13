@@ -12,7 +12,24 @@
 **Video:**  
 
 ## Repository Structure
-Brief description of folders
+```
+iot-computing-assignment
+├── README.md
+├── collab-evidence
+│   ├── ai-notes
+│   └── meeting-notes
+├── data
+│   └── charts
+├── database
+├── docs
+│   ├── presentation
+│   └── report
+├── media
+│   ├── images
+│   ├── poster 
+│   └── video
+└── website
+```
 
 ## Technologies Used
 - HTML/CSS for website
