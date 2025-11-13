@@ -14,7 +14,7 @@
 | Jakira Juma Fahad | 25/U/BIO/01374/PD |  |
 
 ## 🔗 Project Links
-**Website:**  
+**Website:** [Internet of Things](https://Deng-17.github.io/iot-computing-assignment/website/)
 **Blog:**  
 **Wiki:**  
 **Video:**  
@@ -22,21 +22,24 @@
 ## 📂 Repository Structure
 ```
 iot-computing-assignment
-├── README.md
-├── collab-evidence
-│   ├── ai-notes
-│   └── meeting-notes
-├── data
-│   └── charts
-├── database
-├── docs
-│   ├── presentation
-│   └── report
-├── media
-│   ├── images
-│   ├── poster 
-│   └── video
-└── website
+C:.
+│   README.md
+│
+├───collab-evidence
+│   ├───ai-notes
+│   └───meeting-notes
+├───data
+│   └───charts
+├───database
+├───docs
+│   ├───presentation
+│   └───report
+├───media
+│   ├───images
+│   ├───poster
+│   └───video
+└───website
+        index.html
 ```
 
 ## 🛠 Technologies Used
