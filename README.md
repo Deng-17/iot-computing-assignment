@@ -1,5 +1,5 @@
 # IoT Computing Assignment - Group 2 Day
-**TEMB 1105: Computing I**
+**TEMB 1105: Computing I**  
 **Kyambogo University - Faculty of Engineering**
 
 ## Team Members
@@ -66,3 +66,9 @@ This project explores the Internet of Things technology, including:
 - [ ] Collaboration evidence
 - [x] LLM prompt engineering experiments
 - [ ] Blog and Wiki
+
+## Contact
+*For any questions, [email the Group Lead here](mailto:dengater17@gmail.com).*
+
+---
+**Kyambogo University** | Department of Biomedical and Mechatronics Engineering | 2025
