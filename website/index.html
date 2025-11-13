@@ -1,0 +1,458 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Internet of Things (IoT) - Computing I Project</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+        body {
+            font-family: 'Inter', sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        }
+        .section-card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+        .section-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1);
+        }
+        .chart-placeholder {
+            background: linear-gradient(45deg, #f3f4f6 25%, #e5e7eb 25%, #e5e7eb 50%, #f3f4f6 50%, #f3f4f6 75%, #e5e7eb 75%, #e5e7eb);
+            background-size: 20px 20px;
+            min-height: 300px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    </style>
+</head>
+<body class="min-h-screen">
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-lg sticky top-0 z-50">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="flex justify-between items-center py-4">
+                <div class="text-xl font-bold text-indigo-700">IoT Project</div>
+                <div class="hidden md:flex space-x-6">
+                    <a href="#what-is-iot" class="text-gray-700 hover:text-indigo-600 transition">What is IoT?</a>
+                    <a href="#how-it-works" class="text-gray-700 hover:text-indigo-600 transition">How It Works</a>
+                    <a href="#real-world-impact" class="text-gray-700 hover:text-indigo-600 transition">Real-World Impact</a>
+                    <a href="#data-insights" class="text-gray-700 hover:text-indigo-600 transition">Data & Insights</a>
+                    <a href="#resources" class="text-gray-700 hover:text-indigo-600 transition">Resources</a>
+                </div>
+                <button class="md:hidden text-gray-700" onclick="toggleMobileMenu()">
+                    <svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16M4 18h16"></path>
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="py-20 px-4">
+        <div class="max-w-4xl mx-auto text-center text-white">
+            <h1 class="text-5xl md:text-6xl font-extrabold mb-6 drop-shadow-lg">
+                Internet of Things (IoT)
+            </h1>
+            <p class="text-xl md:text-2xl mb-8 opacity-90">
+                Connecting the Physical and Digital Worlds
+            </p>
+            <p class="text-lg mb-8 max-w-2xl mx-auto opacity-80">
+                TEMB 1105: Computing I | Group 2 Day | Kyambogo University
+            </p>
+            <div class="flex flex-wrap justify-center gap-4">
+                <span class="px-4 py-2 bg-white bg-opacity-20 backdrop-blur-sm rounded-full text-sm font-medium">
+                    #BiomedicalEngineering
+                </span>
+                <span class="px-4 py-2 bg-white bg-opacity-20 backdrop-blur-sm rounded-full text-sm font-medium">
+                    #Mechatronics
+                </span>
+                <span class="px-4 py-2 bg-white bg-opacity-20 backdrop-blur-sm rounded-full text-sm font-medium">
+                    #SmartDevices
+                </span>
+            </div>
+        </div>
+    </section>
+
+    <!-- Main Content Container -->
+    <div class="max-w-6xl mx-auto px-4 pb-16">
+        
+        <!-- What is IoT Section -->
+        <section id="what-is-iot" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 section-card">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-4 border-indigo-500 pb-4">
+                    What is the Internet of Things?
+                </h2>
+                
+                <div class="prose max-w-none">
+                    <p class="text-lg text-gray-700 leading-relaxed mb-6">
+                        <strong class="text-indigo-600">Placeholder for Definition Summary:</strong>
+                        [Insert 2-3 paragraph summary from your report here explaining what IoT is, its core concept of connected devices, and the basic ecosystem]
+                    </p>
+                    
+                    <div class="bg-indigo-50 p-6 rounded-xl mb-6">
+                        <h3 class="text-xl font-semibold text-indigo-900 mb-3">Key Characteristics of IoT</h3>
+                        <ul class="space-y-2 text-gray-700">
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>[Placeholder: e.g., "Interconnectivity - devices communicate seamlessly"]</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>[Placeholder: e.g., "Data-driven insights and automation"]</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>[Placeholder: e.g., "Real-time monitoring and control"]</span>
+                            </li>
+                            <li class="flex items-start">
+                                <svg class="w-6 h-6 text-indigo-500 mr-2 flex-shrink-0" fill="currentColor" viewBox="0 0 20 20">
+                                    <path fill-rule="evenodd" d="M10 18a8 8 0 100-16 8 8 0 000 16zm3.707-9.293a1 1 0 00-1.414-1.414L9 10.586 7.707 9.293a1 1 0 00-1.414 1.414l2 2a1 1 0 001.414 0l4-4z" clip-rule="evenodd"/>
+                                </svg>
+                                <span>[Placeholder: e.g., "Scalability and flexibility"]</span>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-gray-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-semibold text-gray-800 mb-3">Historical Evolution</h3>
+                        <p class="text-gray-700">
+                            <strong>Placeholder for History Summary:</strong> [Insert timeline or summary from your report about IoT's evolution from concept to current state]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- How It Works Section -->
+        <section id="how-it-works" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 section-card">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-4 border-purple-500 pb-4">
+                    How Does IoT Work?
+                </h2>
+
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    <strong class="text-purple-600">Placeholder for Technical Overview:</strong>
+                    [Insert summary explaining the technical architecture and components of IoT systems]
+                </p>
+
+                <!-- Architecture Diagram Placeholder -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">IoT System Architecture</h3>
+                    <div class="chart-placeholder rounded-xl border-2 border-dashed border-gray-300">
+                        <div class="text-center">
+                            <p class="text-gray-500 font-medium text-lg mb-2">📊 Architecture Diagram</p>
+                            <p class="text-gray-400 text-sm">[Insert your IoT architecture diagram from report here]</p>
+                            <p class="text-gray-400 text-xs mt-2">Image should show: Sensors → Network → Cloud → Analytics → User Interface</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Four Layers/Components -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl">
+                        <div class="text-3xl mb-3">🔌</div>
+                        <h3 class="text-xl font-bold text-blue-900 mb-2">1. Perception Layer (Sensors)</h3>
+                        <p class="text-gray-700">
+                            [Placeholder: Explain sensors, actuators, and data collection devices]
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl">
+                        <div class="text-3xl mb-3">📡</div>
+                        <h3 class="text-xl font-bold text-green-900 mb-2">2. Network Layer (Communication)</h3>
+                        <p class="text-gray-700">
+                            [Placeholder: Describe protocols like MQTT, WiFi, Bluetooth, LoRaWAN, etc.]
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl">
+                        <div class="text-3xl mb-3">☁️</div>
+                        <h3 class="text-xl font-bold text-purple-900 mb-2">3. Processing Layer (Cloud/Edge)</h3>
+                        <p class="text-gray-700">
+                            [Placeholder: Explain data processing, storage, and analytics]
+                        </p>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-orange-50 to-orange-100 p-6 rounded-xl">
+                        <div class="text-3xl mb-3">💻</div>
+                        <h3 class="text-xl font-bold text-orange-900 mb-2">4. Application Layer (User Interface)</h3>
+                        <p class="text-gray-700">
+                            [Placeholder: Describe dashboards, apps, and user interactions]
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Real-World Impact Section -->
+        <section id="real-world-impact" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 section-card">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-4 border-green-500 pb-4">
+                    Real-World Impact & Applications
+                </h2>
+
+                <p class="text-lg text-gray-700 leading-relaxed mb-8">
+                    <strong class="text-green-600">Placeholder for Impact Summary:</strong>
+                    [Insert overview of IoT's impact on various sectors from your report]
+                </p>
+
+                <!-- Applications Grid -->
+                <div class="grid md:grid-cols-3 gap-6 mb-8">
+                    <div class="bg-red-50 p-6 rounded-xl border-l-4 border-red-500">
+                        <h3 class="text-lg font-bold text-red-900 mb-3">🏥 Healthcare & Biomedical</h3>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li>• [Remote patient monitoring]</li>
+                            <li>• [Wearable health devices]</li>
+                            <li>• [Smart prosthetics]</li>
+                            <li>• [Hospital asset tracking]</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-blue-50 p-6 rounded-xl border-l-4 border-blue-500">
+                        <h3 class="text-lg font-bold text-blue-900 mb-3">🏭 Industrial & Manufacturing</h3>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li>• [Predictive maintenance]</li>
+                            <li>• [Smart factories (Industry 4.0)]</li>
+                            <li>• [Supply chain optimization]</li>
+                            <li>• [Quality control automation]</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-green-50 p-6 rounded-xl border-l-4 border-green-500">
+                        <h3 class="text-lg font-bold text-green-900 mb-3">🏠 Smart Homes & Cities</h3>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li>• [Home automation systems]</li>
+                            <li>• [Energy management]</li>
+                            <li>• [Traffic management]</li>
+                            <li>• [Environmental monitoring]</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-yellow-50 p-6 rounded-xl border-l-4 border-yellow-500">
+                        <h3 class="text-lg font-bold text-yellow-900 mb-3">🚗 Transportation</h3>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li>• [Connected vehicles]</li>
+                            <li>• [Fleet management]</li>
+                            <li>• [Autonomous systems]</li>
+                            <li>• [Logistics tracking]</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-purple-50 p-6 rounded-xl border-l-4 border-purple-500">
+                        <h3 class="text-lg font-bold text-purple-900 mb-3">🌾 Agriculture</h3>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li>• [Precision farming]</li>
+                            <li>• [Soil monitoring]</li>
+                            <li>• [Automated irrigation]</li>
+                            <li>• [Livestock tracking]</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-indigo-50 p-6 rounded-xl border-l-4 border-indigo-500">
+                        <h3 class="text-lg font-bold text-indigo-900 mb-3">⚙️ Mechatronics Applications</h3>
+                        <ul class="text-sm text-gray-700 space-y-2">
+                            <li>• [Robotics control systems]</li>
+                            <li>• [Sensor fusion]</li>
+                            <li>• [Embedded systems]</li>
+                            <li>• [Real-time monitoring]</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Benefits vs Challenges -->
+                <div class="grid md:grid-cols-2 gap-6">
+                    <div class="bg-green-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-green-900 mb-4">✅ Advantages</h3>
+                        <p class="text-gray-700 text-sm mb-3">
+                            <strong>Placeholder:</strong> [List key benefits from your report]
+                        </p>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• [Enhanced efficiency]</li>
+                            <li>• [Cost reduction]</li>
+                            <li>• [Better decision-making]</li>
+                            <li>• [Improved quality of life]</li>
+                        </ul>
+                    </div>
+
+                    <div class="bg-red-50 p-6 rounded-xl">
+                        <h3 class="text-xl font-bold text-red-900 mb-4">⚠️ Challenges</h3>
+                        <p class="text-gray-700 text-sm mb-3">
+                            <strong>Placeholder:</strong> [List key challenges from your report]
+                        </p>
+                        <ul class="text-sm text-gray-700 space-y-1">
+                            <li>• [Security vulnerabilities]</li>
+                            <li>• [Privacy concerns]</li>
+                            <li>• [Interoperability issues]</li>
+                            <li>• [High implementation costs]</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Data & Insights Section (Charts from Report) -->
+        <section id="data-insights" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 section-card">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-4 border-orange-500 pb-4">
+                    Data Insights & Analysis
+                </h2>
+
+                <p class="text-gray-700 mb-8">
+                    The following charts and data visualizations are derived from our research, spreadsheet analysis, and public awareness survey.
+                </p>
+
+                <!-- Chart Placeholder 1 -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">📈 Chart 1: [Title from Excel/Report]</h3>
+                    <div class="chart-placeholder rounded-xl border-2 border-dashed border-gray-300">
+                        <div class="text-center px-4">
+                            <p class="text-gray-500 font-medium text-lg mb-2">📊 Data Visualization #1</p>
+                            <p class="text-gray-400 text-sm">[Insert chart/graph from your Excel analysis here]</p>
+                            <p class="text-gray-400 text-xs mt-2">Example: IoT Adoption Trends Over Time, Cost Comparison, Market Growth, etc.</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-3 italic">
+                        <strong>Figure Caption:</strong> [Placeholder for your chart caption explaining what the data shows]
+                    </p>
+                </div>
+
+                <!-- Chart Placeholder 2 -->
+                <div class="mb-8">
+                    <h3 class="text-xl font-semibold text-gray-800 mb-4">📊 Chart 2: [Title from Excel/Report]</h3>
+                    <div class="chart-placeholder rounded-xl border-2 border-dashed border-gray-300">
+                        <div class="text-center px-4">
+                            <p class="text-gray-500 font-medium text-lg mb-2">📊 Data Visualization #2</p>
+                            <p class="text-gray-400 text-sm">[Insert second chart/graph from your Excel analysis here]</p>
+                            <p class="text-gray-400 text-xs mt-2">Example: Efficiency Metrics, Survey Results, Application Distribution, etc.</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-600 mt-3 italic">
+                        <strong>Figure Caption:</strong> [Placeholder for your chart caption]
+                    </p>
+                </div>
+
+                <!-- Survey Results Summary -->
+                <div class="bg-indigo-50 p-6 rounded-xl">
+                    <h3 class="text-xl font-semibold text-indigo-900 mb-4">📋 Public Awareness Survey Highlights</h3>
+                    <div class="grid md:grid-cols-3 gap-4 mb-4">
+                        <div class="bg-white p-4 rounded-lg text-center">
+                            <p class="text-3xl font-bold text-indigo-600">[X%]</p>
+                            <p class="text-sm text-gray-600">Aware of IoT</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg text-center">
+                            <p class="text-3xl font-bold text-indigo-600">[Y%]</p>
+                            <p class="text-sm text-gray-600">See it as Important</p>
+                        </div>
+                        <div class="bg-white p-4 rounded-lg text-center">
+                            <p class="text-3xl font-bold text-indigo-600">[Z]</p>
+                            <p class="text-sm text-gray-600">Survey Respondents</p>
+                        </div>
+                    </div>
+                    <p class="text-sm text-gray-700">
+                        <strong>Key Findings:</strong> [Summarize 2-3 key insights from your survey results]
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Resources & Links Section -->
+        <section id="resources" class="mb-16">
+            <div class="bg-white rounded-2xl shadow-2xl p-8 md:p-12 section-card">
+                <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-6 border-b-4 border-pink-500 pb-4">
+                    Project Resources & Deliverables
+                </h2>
+
+                <div class="grid md:grid-cols-2 gap-6">
+                    <!-- Report -->
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-blue-900 mb-3">📄 Full Research Report</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Comprehensive 20-page academic report covering all aspects of IoT technology, applications, and implications.
+                        </p>
+                        <a href="[PDF Link Placeholder]" target="_blank" class="inline-block bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition text-sm font-medium">
+                            Download Report (PDF) →
+                        </a>
+                    </div>
+
+                    <!-- Presentation -->
+                    <div class="bg-gradient-to-br from-purple-50 to-purple-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-purple-900 mb-3">📊 Presentation Slides</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            10-slide presentation summarizing our research findings and key insights on IoT technology.
+                        </p>
+                        <a href="[Slides Link Placeholder]" target="_blank" class="inline-block bg-purple-600 text-white px-4 py-2 rounded-lg hover:bg-purple-700 transition text-sm font-medium">
+                            View Slides →
+                        </a>
+                    </div>
+
+                    <!-- Video -->
+                    <div class="bg-gradient-to-br from-red-50 to-red-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-red-900 mb-3">🎥 Project Video</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            3-5 minute video explaining IoT technology and its relevance to Biomedical and Mechatronics Engineering.
+                        </p>
+                        <a href="[Video Link Placeholder]" target="_blank" class="inline-block bg-red-600 text-white px-4 py-2 rounded-lg hover:bg-red-700 transition text-sm font-medium">
+                            Watch Video →
+                        </a>
+                    </div>
+
+                    <!-- Poster -->
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-green-900 mb-3">🖼️ Research Poster</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Visual summary poster designed using desktop publishing software, highlighting key findings.
+                        </p>
+                        <a href="[Poster Link Placeholder]" target="_blank" class="inline-block bg-green-600 text-white px-4 py-2 rounded-lg hover:bg-green-700 transition text-sm font-medium">
+                            View Poster →
+                        </a>
+                    </div>
+
+                    <!-- Blog -->
+                    <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-yellow-900 mb-3">✍️ Group Blog</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Opinion articles and reflections on IoT technology and its implications for engineering.
+                        </p>
+                        <a href="[Blog Link Placeholder]" target="_blank" class="inline-block bg-yellow-600 text-white px-4 py-2 rounded-lg hover:bg-yellow-700 transition text-sm font-medium">
+                            Visit Blog →
+                        </a>
+                    </div>
+
+                    <!-- Wiki -->
+                    <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-indigo-900 mb-3">📚 Project Wiki</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Comprehensive wiki with definitions, technical overview, applications, and ethical considerations.
+                        </p>
+                        <a href="[Wiki Link Placeholder]" target="_blank" class="inline-block bg-indigo-600 text-white px-4 py-2 rounded-lg hover:bg-indigo-700 transition text-sm font-medium">
+                            Explore Wiki →
+                        </a>
+                    </div>
+
+                    <!-- Database -->
+                    <div class="bg-gradient-to-br from-pink-50 to-pink-100 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-pink-900 mb-3">🗄️ Database & ERD</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Database design diagram and implementation storing research references and survey data.
+                        </p>
+                        <a href="[Database Info Link Placeholder]" target="_blank" class="inline-block bg-pink-600 text-white px-4 py-2 rounded-lg hover:bg-pink-700 transition text-sm font-medium">
+                            View Schema →
+                        </a>
+                    </div>
+
+                    <!-- GitHub -->
+                    <div class="bg-gradient-to-br from-gray-50 to-gray-200 p-6 rounded-xl hover:shadow-lg transition">
+                        <h3 class="text-xl font-bold text-gray-900 mb-3">💻 GitHub Repository</h3>
+                        <p class="text-gray-700 text-sm mb-4">
+                            Access our complete project repository with all source code, documentation, and collaboration history.
+                        </p>
