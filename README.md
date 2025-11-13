@@ -22,7 +22,6 @@
 ## 📂 Repository Structure
 ```
 iot-computing-assignment
-C:.
 │   README.md
 │
 ├───collab-evidence
