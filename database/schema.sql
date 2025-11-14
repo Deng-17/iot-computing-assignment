@@ -12,7 +12,7 @@ CREATE TABLE IF NOT EXISTS survey_responses (
     
     -- Demographics
     age_group TEXT NOT NULL CHECK(age_group IN ('Under 18', '18-24', '25-34', '35-44', '45-54', '55-64', '65+')),
-    education_level TEXT NOT NULL CHECK(education_level IN ('High School or below', 'College', "Bachelor's degree", "Master's degree or higher", 'Prefer not to say')),
+    education_level TEXT NOT NULL CHECK(education_level IN ('High School or below', 'College', 'Bachelors degree', 'Masters degree or higher', 'Prefer not to say')),
     occupation TEXT NOT NULL CHECK(occupation IN ('Student', 'Employed in tech/IT', 'Employed in non-tech', 'Self-employed', 'Unemployed', 'Retired', 'Other')),
     
     -- IoT Awareness
@@ -26,7 +26,7 @@ CREATE TABLE IF NOT EXISTS survey_responses (
     future_impact_rating INTEGER CHECK(future_impact_rating BETWEEN 1 AND 5),
     
     -- Open-ended responses
-    valuable_applications TEXT NOT NULL CHECK(valuable_applications IN ("Smart home devices", "Wearable health trackers", "Smart city traffic", "Industrial automation", "Agriculture sensors", "None", "Other")), -- Comma-separated or single value
+    valuable_applications TEXT NOT NULL CHECK(valuable_applications IN ('Smart home devices', 'Wearable health trackers', 'Smart city traffic', 'Industrial automation', 'Agriculture sensors', 'None', 'Other')), -- Comma-separated or single value
     standout_benefit TEXT,
     concerns TEXT,
     
@@ -77,7 +77,7 @@ INSERT INTO survey_responses (
 ) VALUES 
 (
     '18-24', 
-    "Bachelor's degree", 
+    'Bachelors degree', 
     'Student', 
     'Yes', 
     3,
@@ -91,7 +91,7 @@ INSERT INTO survey_responses (
 ),
 (
     '25-34',
-    "Master's degree",
+    'Masters degree',
     'Employed in tech/IT',
     'Yes',
     4,
@@ -105,7 +105,7 @@ INSERT INTO survey_responses (
 ),
 (
     '35-44',
-    "Bachelor's degree",
+    'Bachelors degree',
     'Employed in non-tech',
     'Somewhat',
     2,
