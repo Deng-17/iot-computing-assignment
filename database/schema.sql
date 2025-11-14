@@ -16,8 +16,8 @@ CREATE TABLE IF NOT EXISTS survey_responses (
     occupation TEXT NOT NULL CHECK(occupation IN ('Student', 'Employed in tech/IT', 'Employed in non-tech', 'Self-employed', 'Unemployed', 'Retired', 'Other')),
     
     -- IoT Awareness
-    heard_of_iot TEXT NOT NULL CHECK(heard_of_iot IN ('Yes', 'No')),
-    familiarity_level INTEGER CHECK(familiarity_level BETWEEN 1 AND 4), -- NULL if heard_of_iot = 'No'
+    heard_of_iot TEXT NOT NULL CHECK(heard_of_iot IN ('Yes', 'No', 'Somewhat')),
+    familiarity_level INTEGER CHECK(familiarity_level BETWEEN 1 AND 4),
     
     -- Ratings (1-5 scale)
     importance_rating INTEGER CHECK(importance_rating BETWEEN 1 AND 5),
@@ -25,8 +25,8 @@ CREATE TABLE IF NOT EXISTS survey_responses (
     relevance_rating INTEGER CHECK(relevance_rating BETWEEN 1 AND 5),
     future_impact_rating INTEGER CHECK(future_impact_rating BETWEEN 1 AND 5),
     
-    -- Open-ended responses
-    valuable_applications TEXT NOT NULL CHECK(valuable_applications IN ('Smart home devices', 'Wearable health trackers', 'Smart city traffic', 'Industrial automation', 'Agriculture sensors', 'None', 'Other')), -- Comma-separated or single value
+    -- Open-ended responses (NO CHECK CONSTRAINTS - free text allowed)
+    valuable_applications TEXT,
     standout_benefit TEXT,
     concerns TEXT,
     
@@ -91,7 +91,7 @@ INSERT INTO survey_responses (
 ),
 (
     '25-34',
-    'Masters degree',
+    'Masters degree or higher',
     'Employed in tech/IT',
     'Yes',
     4,
@@ -173,7 +173,7 @@ INSERT INTO _references (title, authors, publication_year, source_type, publishe
     'M. A. Khan and K. Salah, "IoT Security: Review, Blockchain Solutions, and Open Challenges," Future Gener. Comput. Syst., vol. 82, pp. 395-411, May 2018.'
 );
 
--- Sample team members (REPLACE WITH YOUR ACTUAL DATA)
+-- Sample team members
 INSERT INTO team_members (full_name, registration_number, _role, email, github_username, contribution_areas) VALUES
 ('Deng Yak Deng Ater', '25/X/BIO/01367/PD', 'Group Lead, Database & Web Dev', 'dengater17@gmail.com', 'Deng-17', 'Database design, website development, GitHub management'),
 ('[Your Name 2]', '[REG002]', 'Report Coordinator', '[email2@example.com]', '[github2]', 'Report writing, literature review, formatting'),
