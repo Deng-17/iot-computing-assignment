@@ -92,3 +92,21 @@ SELECT
     submitted_at
 FROM survey_responses
 ORDER BY response_id;
+
+-- Query 10: Team member list
+SELECT 
+    full_name,
+    registration_number,
+    _role,
+    contribution_areas
+FROM team_members
+ORDER BY full_name;
+
+-- Query 11: All references formatted
+SELECT 
+    title,
+    authors,
+    publication_year,
+    ieee_citation
+FROM _references
+ORDER BY publication_year DESC, authors;
