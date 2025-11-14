@@ -127,7 +127,7 @@ INSERT INTO survey_responses (
     3,
     3,
     3,
-    'Not sure',
+    'None',
     'Unsure of specific benefits',
     'Lack of awareness and understanding'
 ),
@@ -178,7 +178,7 @@ INSERT INTO team_members (full_name, registration_number, _role, email, github_u
 ('Deng Yak Deng Ater', '25/X/BIO/01367/PD', 'Group Lead, Database & Web Dev', 'dengater17@gmail.com', 'Deng-17', 'Database design, website development, GitHub management'),
 ('[Your Name 2]', '[REG002]', 'Report Coordinator', '[email2@example.com]', '[github2]', 'Report writing, literature review, formatting'),
 ('[Your Name 3]', '[REG003]', 'Researcher & Data Analyst', '[email3@example.com]', '[github3]', 'Research, survey design, data analysis, Excel charts'),
-('[Your Name 4]', '[REG004]', 'Media & Presentation', '[email4@example.com]', '[github4]', 'Video editing, poster design, presentation slides, graphics');
+('[Your Name 4]', '[REG004]', 'Media & Presentation', '[email4@example.com]', '[github4]', 'Video editing, poster design, presentation slides, graphics'),
 ('[Your Name 5]', '[REG005]', 'Quality Assurance', '[email5@example.com]', '[github5]', 'Testing, proofreading, final review'),
 
 
@@ -231,11 +231,3 @@ ORDER BY familiarity_level;
 SELECT concerns
 FROM survey_responses
 WHERE concerns IS NOT NULL AND concerns != '';
-
--- Query 6: Applications by category count
-SELECT 
-    category,
-    COUNT(*) as application_count
-FROM iot_applications
-GROUP BY category
-ORDER BY application_count DESC;
