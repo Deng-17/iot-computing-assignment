@@ -32,6 +32,7 @@ C:.
 │   │
 │   └───charts
 ├───database
+|       erd-diagram.png
 │       export-to-json.py
 │       iot_comp_assignment.db
 │       queries.sql
