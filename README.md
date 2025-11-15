@@ -6,7 +6,7 @@
 | Name | Registration Number | GitHub Username |
 |------|---------------------|-----------------|
 | Deng Yak Deng Ater | 25/X/BIO/01367/PD | Deng-17 |
-| Namuganza Maria Gorret | 25/U/BIO/027/GV |  |
+| Namuganza Maria Gorret | 25/U/BIO/027/GV | namuganzamariagorret-tech |
 | Kibi Darius | 25/U/BIO/01383/PD | dariokibi806-dev |
 | Odora Stephen | 25/U/BIO/01411/PD | Steve16-code |
 | Otim Amos | 25/U/BIO/01416/PD | amosotim |
@@ -21,15 +21,22 @@
 
 ## 📂 Repository Structure
 ```
-iot-computing-assignment
 │   README.md
 │
 ├───collab-evidence
 │   ├───ai-notes
 │   └───meeting-notes
 ├───data
+│   │   spreadsheet.xlsx
+│   │
 │   └───charts
 ├───database
+│       export-to-json.py
+│       iot_comp_assignment.db
+│       queries.sql
+│       README.md
+│       schema.sql
+│
 ├───docs
 │   ├───presentation
 │   └───report
@@ -38,7 +45,14 @@ iot-computing-assignment
 │   ├───poster
 │   └───video
 └───website
-        index.html
+    │   index.html
+    │
+    └───data
+            age-distribution.json                                                                                                                     concerns.json
+            education-distribution.json                                                                                                               occupation-distribution.json                                                                                                              references.json
+            survey-responses.json
+            survey-stats.json
+            team-members.json
 ```
 
 ## 🛠 Technologies Used
@@ -48,7 +62,7 @@ iot-computing-assignment
 - **Data Analysis:** Microsoft Excel
 - **Survey Tool:** Google Forms
 - **Collaboration:** Google Meet, Otter.ai
-- **Video Editing:** [Tool name(Da Vinci Resolve, Canva, Capcut, etc.)]
+- **Video Editing:** Da Vinci Resolve
 - **Graphics:** [Tool name(GIMP, Photoshop, Figma)]
 
 ## 📊 Research Focus
@@ -60,17 +74,22 @@ This project explores the Internet of Things technology, including:
 - Future outlook and emerging trends
 
 ## 🧾 Assignment Requirements and Checklist
+### Completed ✅
+- [x] Database design and implementation
+- [x] Website structure and data integration
+- [x] Spreadsheet analysis with charts
+- [x] Presentation slides (10 slides max)
+- [x] Survey and data collection
+
+### In Progress 🔁
 - [ ] Research report (20 pages max)
-- [ ] Spreadsheet analysis with charts
 - [ ] Desktop-published poster
-- [ ] Edited images/graphics
-- [ ] Presentation slides (10 slides max)
 - [ ] 3-5 minute video
-- [x] HTML/CSS Website
-- [ ] Database with ERD
-- [x] Public awareness survey
+- [ ] Edited images/graphics
+- [ ] LLM prompt engineering experiments
+
+### Pending ⏳
 - [ ] Collaboration evidence
-- [x] LLM prompt engineering experiments
 - [ ] Blog and Wiki
 
 ## 🤝 Contributing
