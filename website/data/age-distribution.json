@@ -1,0 +1,22 @@
+[
+  {
+    "age_group": "18-24",
+    "count": 18,
+    "avg_importance": 3.8
+  },
+  {
+    "age_group": "25-34",
+    "count": 3,
+    "avg_importance": 4.0
+  },
+  {
+    "age_group": "35-44",
+    "count": 1,
+    "avg_importance": 3.0
+  },
+  {
+    "age_group": "Under 18",
+    "count": 1,
+    "avg_importance": 3.0
+  }
+]

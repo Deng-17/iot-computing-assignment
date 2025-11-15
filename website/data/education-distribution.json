@@ -1,0 +1,27 @@
+[
+  {
+    "education_level": "Bachelors degree",
+    "count": 11,
+    "percentage": 47.8
+  },
+  {
+    "education_level": "High School or below",
+    "count": 5,
+    "percentage": 21.7
+  },
+  {
+    "education_level": "College",
+    "count": 4,
+    "percentage": 17.4
+  },
+  {
+    "education_level": "Prefer not to say",
+    "count": 2,
+    "percentage": 8.7
+  },
+  {
+    "education_level": "Masters degree or higher",
+    "count": 1,
+    "percentage": 4.3
+  }
+]

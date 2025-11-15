@@ -1,0 +1,20 @@
+[
+  {
+    "occupation": "Student",
+    "count": 21,
+    "avg_importance": 3.7,
+    "avg_usefulness": 3.6
+  },
+  {
+    "occupation": "Unemployed",
+    "count": 1,
+    "avg_importance": 4.0,
+    "avg_usefulness": 2.0
+  },
+  {
+    "occupation": "Employed in non-tech",
+    "count": 1,
+    "avg_importance": 5.0,
+    "avg_usefulness": 5.0
+  }
+]

@@ -1,0 +1,58 @@
+[
+  {
+    "full_name": "Deng Yak Deng Ater",
+    "registration_number": "25/X/BIO/01367/PD",
+    "role": "Group Lead, Database & Web Dev",
+    "email": "dengater17@gmail.com",
+    "github_username": "Deng-17",
+    "contribution_areas": "Database design, website development, GitHub management"
+  },
+  {
+    "full_name": "Jakira Juma Fahad",
+    "registration_number": "25/U/BIO/01374/PD",
+    "role": "Data Collection & Research",
+    "email": "jakirajumafahad@gmail.com",
+    "github_username": "jakirajumafahad",
+    "contribution_areas": "Data collection, research assistance, fieldwork"
+  },
+  {
+    "full_name": "Kibi Darius",
+    "registration_number": "25/U/BIO/01383/PD",
+    "role": "Researcher & Data Analyst",
+    "email": "dariokibi806@gmail.com",
+    "github_username": "dariokibi806-dev",
+    "contribution_areas": "Research, survey design, data analysis, Excel charts"
+  },
+  {
+    "full_name": "Kusena Jimmy",
+    "registration_number": "25/U/BIO/01389/PD",
+    "role": "Documentation & Support",
+    "email": "jimmieplaise@gmail.com",
+    "github_username": "jimmieplaise-ctrl",
+    "contribution_areas": "Documentation, technical support, user assistance"
+  },
+  {
+    "full_name": "Namuganza Maria Gorret",
+    "registration_number": "25/U/BIO/027/GV",
+    "role": "Report Coordinator",
+    "email": "namuganzamariagorret@gmail.com",
+    "github_username": "namuganzamariagorret-tech",
+    "contribution_areas": "Report writing, literature review, formatting"
+  },
+  {
+    "full_name": "Odora Stephen",
+    "registration_number": "25/U/BIO/01411/PD",
+    "role": "Media & Presentation",
+    "email": "stephenodora22@gmail.com",
+    "github_username": "Steve16-code",
+    "contribution_areas": "Video editing, poster design, presentation slides, graphics"
+  },
+  {
+    "full_name": "Otim Amos",
+    "registration_number": "25/U/01416/PD",
+    "role": "Quality Assurance",
+    "email": "amosotimfaith2004@gmail.com",
+    "github_username": "amosotim",
+    "contribution_areas": "Testing, proofreading, final review"
+  }
+]

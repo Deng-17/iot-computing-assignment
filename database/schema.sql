@@ -100,11 +100,12 @@ INSERT INTO survey_responses (
 ('35-44','College','Student','Yes',3,3,5,4,4,'Agriculture sensors','The potential for aggregated data from underserved communities, using voice to bypass literacy and education barriers','Its use for trivial things (eg lights, music systems) and potentially for data monitoring breaches');
 
 -- References
-INSERT INTO _references (title, authors, publication_year, source_type, publisher, ieee_citation) VALUES
+INSERT INTO _references (
+    title, authors, publication_year, source_type, publisher, ieee_citation
+) VALUES
 ('Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications','A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari, and M. Ayyash',2015,'Journal','IEEE Communications Surveys & Tutorials','A. Al-Fuqaha, M. Guizani, M. Mohammadi, M. Aledhari, and M. Ayyash, "Internet of Things: A Survey on Enabling Technologies, Protocols, and Applications," IEEE Commun. Surveys Tuts., vol. 17, no. 4, pp. 2347-2376, Fourthquarter 2015.'),
 ('The Internet of Things for Health Care: A Comprehensive Survey','S. M. R. Islam, D. Kwak, M. H. Kabir, M. Hossain, and K. S. Kwak',2015,'Journal','IEEE Access','S. M. R. Islam, D. Kwak, M. H. Kabir, M. Hossain, and K. S. Kwak, "The Internet of Things for Health Care: A Comprehensive Survey," IEEE Access, vol. 3, pp. 678-708, 2015.'),
-('IoT Security: Review, Blockchain Solutions, and Open Challenges','M. A. Khan and K. Salah',2018,'Journal','Future Generation Computer Systems','M. A. Khan and K. Salah, "IoT Security: Review, Blockchain Solutions, and Open Challenges," Future Gener. Comput. Syst., vol. 82, pp. 395-411, May 2018.'),
-();
+('IoT Security: Review, Blockchain Solutions, and Open Challenges','M. A. Khan and K. Salah',2018,'Journal','Future Generation Computer Systems','M. A. Khan and K. Salah, "IoT Security: Review, Blockchain Solutions, and Open Challenges," Future Gener. Comput. Syst., vol. 82, pp. 395-411, May 2018.');
 
 -- Team members
 INSERT INTO team_members (full_name, registration_number, _role, email, github_username, contribution_areas) VALUES
