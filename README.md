@@ -21,6 +21,7 @@
 
 ## 📂 Repository Structure
 ```
+C:.
 │   README.md
 │
 ├───collab-evidence
@@ -48,8 +49,11 @@
     │   index.html
     │
     └───data
-            age-distribution.json                                                                                                                     concerns.json
-            education-distribution.json                                                                                                               occupation-distribution.json                                                                                                              references.json
+            age-distribution.json
+            concerns.json
+            education-distribution.json
+            occupation-distribution.json
+            references.json
             survey-responses.json
             survey-stats.json
             team-members.json
@@ -69,7 +73,7 @@
 This project explores the Internet of Things technology, including:
 - Historical evolution and current state
 - Technical architecture and protocols
-- Applications and Biomedical and Mechatronics Engineering
+- Applications in Biomedical and Mechatronics Engineering
 - Advantages, challenges, and ethical considerations
 - Future outlook and emerging trends
 
