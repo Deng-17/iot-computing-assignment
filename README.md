@@ -15,8 +15,8 @@
 
 ## 🔗 Project Links
 **Website:** [Internet of Things](https://Deng-17.github.io/iot-computing-assignment/website/)  
-**Blog:**  
-**Wiki:**  
+**Blog:** [Internet of Things | Blog](https://medium.com/@iotgroup2kyambogo)
+**Wiki:** [Internet of Things | Wiki](https://github.com/Deng-17/iot-computing-assignment/wiki)
 **Video:**  
 
 ## 📂 Repository Structure
@@ -68,7 +68,7 @@ C:.
 - **Survey Tool:** Google Forms
 - **Collaboration:** Google Meet, Otter.ai
 - **Video Editing:** Da Vinci Resolve
-- **Graphics:** [Tool name(GIMP, Photoshop, Figma)]
+- **Graphics:** Adobe Illustrator
 
 ## 📊 Research Focus
 This project explores the Internet of Things technology, including:
@@ -80,22 +80,18 @@ This project explores the Internet of Things technology, including:
 
 ## 🧾 Assignment Requirements and Checklist
 ### Completed ✅
-- [x] Database design and implementation
-- [x] Website structure and data integration
-- [x] Spreadsheet analysis with charts
+- [x] Research report (20 pages max)
 - [x] Presentation slides (10 slides max)
 - [x] Survey and data collection
-
-### In Progress 🔁
-- [ ] Research report (20 pages max)
-- [ ] Desktop-published poster
+- [x] Spreadsheet analysis with charts
+- [x] Website structure and data integration
+- [x] Database design and implementation
+- [x] Blog and Wiki
+- [x] Desktop-published poster
+- [x] Edited images/graphics
 - [ ] 3-5 minute video
-- [ ] Edited images/graphics
 - [ ] LLM prompt engineering experiments
-
-### Pending ⏳
 - [ ] Collaboration evidence
-- [ ] Blog and Wiki
 
 ## 🤝 Contributing
 Each team member should:
