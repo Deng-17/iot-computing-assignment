@@ -24,15 +24,11 @@
 C:.
 │   README.md
 │
-├───collab-evidence
-│   ├───ai-notes
-│   └───meeting-notes
 ├───data
-│   │   spreadsheet.xlsx
-│   │
-│   └───charts
+│       spreadsheet.xlsx
+│
 ├───database
-|       erd-diagram.png
+│       erd-diagram.png
 │       export-to-json.py
 │       iot_comp_assignment.db
 │       queries.sql
@@ -41,11 +37,23 @@ C:.
 │
 ├───docs
 │   ├───presentation
+│   │       internet-of-things.pptx
+│   │
 │   └───report
+│           report.docx
+│           report.pdf
+│
 ├───media
 │   ├───images
+│   │       group_discussion.jpg
+│   │       online_discussion.jpg
+│   │
 │   ├───poster
+│   │       poster.jpg
+│   │
 │   └───video
+│           internet-of-things.mp4
+│
 └───website
     │   index.html
     │
