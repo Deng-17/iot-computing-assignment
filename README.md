@@ -15,8 +15,8 @@
 
 ## 🔗 Project Links
 **Website:** [Internet of Things](https://Deng-17.github.io/iot-computing-assignment/website/)  
-**Blog:** [Internet of Things | Blog](https://medium.com/@iotgroup2kyambogo)
-**Wiki:** [Internet of Things | Wiki](https://github.com/Deng-17/iot-computing-assignment/wiki)
+**Blog:** [Internet of Things | Blog](https://medium.com/@iotgroup2kyambogo)  
+**Wiki:** [Internet of Things | Wiki](https://github.com/Deng-17/iot-computing-assignment/wiki)  
 **Video:**  
 
 ## 📂 Repository Structure
