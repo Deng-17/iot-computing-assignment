@@ -11,13 +11,13 @@
 | Odora Stephen | 25/U/BIO/01411/PD | Steve16-code |
 | Otim Amos | 25/U/BIO/01416/PD | amosotim |
 | Kusena Jimmy | 25/U/BIO/01389/PD | jimmieplaise-ctrl |
-| Jakira Juma Fahad | 25/U/BIO/01374/PD |  |
+| Jakira Juma Fahad | 25/U/BIO/01374/PD | jakirajumafahad |
 
 ## 🔗 Project Links
-**Website:** [Internet of Things](https://Deng-17.github.io/iot-computing-assignment/website/)  
+**Website:** [Internet of Things | Website](https://Deng-17.github.io/iot-computing-assignment/website/)  
 **Blog:** [Internet of Things | Blog](https://medium.com/@iotgroup2kyambogo)  
 **Wiki:** [Internet of Things | Wiki](https://github.com/Deng-17/iot-computing-assignment/wiki)  
-**Video:**  
+**Video:** [Internet of Things | Video](https://github.com/Deng-17/iot-computing-assignment/media/video/internet-of-things.mp4) 
 
 ## 📂 Repository Structure
 ```
